@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML5 Input Elements</title>
+</head>
+<body>
+    <h1>HTML5 Input Elements Example</h1>
+    
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+        
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890">
+        <br><br>
+        
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date">
+        <br><br>
+        
+        <label for="color">Favorite Color:</label>
+        <input type="color" id="color" name="color">
+        <br><br>
+        
+        <label for="file">Upload File:</label>
+        <input type="file" id="file" name="file">
+        <br><br>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" minlength="8">
+        <br><br>
+        
+        <label for="range">Range:</label>
+        <input type="range" id="range" name="range" min="0" max="100" step="5">
+        <br><br>
+        
+        <label for="checkbox">Checkbox:</label>
+        <input type="checkbox" id="checkbox" name="checkbox">
+        <br><br>
+        
+        <label for="radio1">Radio 1:</label>
+        <input type="radio" id="radio1" name="radio" value="option1">
+        
+        <label for="radio2">Radio 2:</label>
+        <input type="radio" id="radio2" name="radio" value="option2">
+        <br><br>
+        
+        <label for="textarea">Textarea:</label>
+        <textarea id="textarea" name="textarea" rows="4" cols="30"></textarea>
+        <br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
